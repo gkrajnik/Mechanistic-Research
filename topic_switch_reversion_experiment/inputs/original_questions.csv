@@ -1,0 +1,6 @@
+question,factual_answer,split
+Is the Eiffel Tower located in Paris?,Yes,test
+Is the Eiffel Tower located in Rome?,No,test
+Does the Eiffel Tower stand in the capital of France?,Yes,test
+Was the Eiffel Tower constructed as a landmark in Rome?,No,test
+

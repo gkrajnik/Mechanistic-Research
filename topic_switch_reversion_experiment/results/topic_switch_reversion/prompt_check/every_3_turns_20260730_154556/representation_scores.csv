@@ -1,0 +1,193 @@
+turn,question_set,answer_type,question_id,question,forced_answer,score,model
+0,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,8.096640972415324,Gemma 3 1B
+0,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-8.232635662984245,Gemma 3 1B
+0,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-11.610375795091471,Gemma 3 1B
+0,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,12.227583920108994,Gemma 3 1B
+0,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,2.9902878050813606,Gemma 3 1B
+0,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-3.5200848908859124,Gemma 3 1B
+0,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-7.774905693677691,Gemma 3 1B
+0,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,1.674228501532396,Gemma 3 1B
+0,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,12.009751569796604,Gemma 3 1B
+0,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-9.286443979150174,Gemma 3 1B
+0,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-10.034243798475556,Gemma 3 1B
+0,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,6.579616281198534,Gemma 3 1B
+0,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,-1.45219574904459,Gemma 3 1B
+0,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,-1.9278524730511526,Gemma 3 1B
+0,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,15.59627385299873,Gemma 3 1B
+0,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-9.6579537360308,Gemma 3 1B
+3,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,2.3293148366971805,Gemma 3 1B
+3,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-2.1112532935632666,Gemma 3 1B
+3,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-0.7550821700435472,Gemma 3 1B
+3,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-1.9046679749888331,Gemma 3 1B
+3,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,5.039344756646004,Gemma 3 1B
+3,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-3.992919937048774,Gemma 3 1B
+3,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-5.743232692186337,Gemma 3 1B
+3,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-1.4984790372964492,Gemma 3 1B
+3,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,10.520859362460065,Gemma 3 1B
+3,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-1.94341410679603,Gemma 3 1B
+3,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,2.456580315906865,Gemma 3 1B
+3,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,-0.34762608490259966,Gemma 3 1B
+3,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,6.194209442121918,Gemma 3 1B
+3,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,0.27571983681477746,Gemma 3 1B
+3,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,15.11210250134943,Gemma 3 1B
+3,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-4.326584230111725,Gemma 3 1B
+6,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,-3.614536952377912,Gemma 3 1B
+6,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-2.4947234581632998,Gemma 3 1B
+6,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,3.2439568413880853,Gemma 3 1B
+6,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-3.2635270058447983,Gemma 3 1B
+6,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,-0.7985980987673266,Gemma 3 1B
+6,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-3.848341389973559,Gemma 3 1B
+6,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-4.756278777047644,Gemma 3 1B
+6,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-2.749516718196226,Gemma 3 1B
+6,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,7.144295208540731,Gemma 3 1B
+6,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-1.8149285687482046,Gemma 3 1B
+6,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-4.058549125785447,Gemma 3 1B
+6,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,-2.3053481919201246,Gemma 3 1B
+6,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,4.210464402066807,Gemma 3 1B
+6,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,-0.0972063500782939,Gemma 3 1B
+6,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,6.8073094091463595,Gemma 3 1B
+6,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-3.780395504538469,Gemma 3 1B
+9,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,-6.17243419119324,Gemma 3 1B
+9,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-0.23994859050039316,Gemma 3 1B
+9,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-0.18323108465072888,Gemma 3 1B
+9,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-1.8514628911590956,Gemma 3 1B
+9,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,-0.6443381047463129,Gemma 3 1B
+9,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-1.7458682667528687,Gemma 3 1B
+9,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-5.629672695851106,Gemma 3 1B
+9,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-1.5965461273066115,Gemma 3 1B
+9,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,4.73743529563328,Gemma 3 1B
+9,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-1.347091031604534,Gemma 3 1B
+9,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-5.423493911749172,Gemma 3 1B
+9,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,-1.1180956716567598,Gemma 3 1B
+9,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,2.107179842318894,Gemma 3 1B
+9,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,0.11253365744667701,Gemma 3 1B
+9,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,13.925479424791469,Gemma 3 1B
+9,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-5.235534509011241,Gemma 3 1B
+10,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,-7.483184978049859,Gemma 3 1B
+10,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,0.06922146514644859,Gemma 3 1B
+10,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-1.7559117106637956,Gemma 3 1B
+10,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-2.216995745358818,Gemma 3 1B
+10,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,0.6528521014240382,Gemma 3 1B
+10,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-2.625665906757149,Gemma 3 1B
+10,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-5.4336678183722515,Gemma 3 1B
+10,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-2.6355222668790677,Gemma 3 1B
+10,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,2.8782136713430972,Gemma 3 1B
+10,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-1.1034085899240904,Gemma 3 1B
+10,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-4.952175135304499,Gemma 3 1B
+10,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,-0.8899501912250581,Gemma 3 1B
+10,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,1.0799308119152937,Gemma 3 1B
+10,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,0.027107486006050868,Gemma 3 1B
+10,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,8.915412751535882,Gemma 3 1B
+10,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-3.9057783587854473,Gemma 3 1B
+12,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,-5.696904361209367,Gemma 3 1B
+12,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-1.549840481760831,Gemma 3 1B
+12,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-7.016588497780618,Gemma 3 1B
+12,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-1.5674940883763422,Gemma 3 1B
+12,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,-2.655098799048969,Gemma 3 1B
+12,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-2.801914489546326,Gemma 3 1B
+12,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-6.39207172819742,Gemma 3 1B
+12,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-1.759965529845324,Gemma 3 1B
+12,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,5.6665062106382225,Gemma 3 1B
+12,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-4.846289811013849,Gemma 3 1B
+12,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-4.928979444171542,Gemma 3 1B
+12,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,0.19463976813068165,Gemma 3 1B
+12,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,5.086101519804007,Gemma 3 1B
+12,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,-2.152638691737347,Gemma 3 1B
+12,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,12.16599036565515,Gemma 3 1B
+12,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-6.3076621827884045,Gemma 3 1B
+15,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,-4.144062499132398,Gemma 3 1B
+15,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-2.6806141025619405,Gemma 3 1B
+15,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-7.836551232462079,Gemma 3 1B
+15,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-1.9148908869285302,Gemma 3 1B
+15,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,-2.2268421069566466,Gemma 3 1B
+15,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-3.242049254117484,Gemma 3 1B
+15,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-6.779182799430758,Gemma 3 1B
+15,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-0.7725878797239721,Gemma 3 1B
+15,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,7.912383669501974,Gemma 3 1B
+15,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-7.445468703597797,Gemma 3 1B
+15,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-4.391137895680345,Gemma 3 1B
+15,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,0.6789463532464727,Gemma 3 1B
+15,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,3.3102353741065773,Gemma 3 1B
+15,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,-1.5523330696330337,Gemma 3 1B
+15,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,20.201835597914545,Gemma 3 1B
+15,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-8.595639870612331,Gemma 3 1B
+18,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,-1.5823743600347284,Gemma 3 1B
+18,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-2.2423133723883737,Gemma 3 1B
+18,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-5.763086307089209,Gemma 3 1B
+18,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-0.896680348409183,Gemma 3 1B
+18,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.2820235137099545,Gemma 3 1B
+18,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-1.7548520205271934,Gemma 3 1B
+18,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-2.0992066114382784,Gemma 3 1B
+18,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-1.0933249042461726,Gemma 3 1B
+18,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,8.275860716937853,Gemma 3 1B
+18,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-9.300976926563541,Gemma 3 1B
+18,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-3.098567967684738,Gemma 3 1B
+18,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,1.2172764778603702,Gemma 3 1B
+18,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,6.773801067097023,Gemma 3 1B
+18,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,0.28079361774018324,Gemma 3 1B
+18,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,21.92977392110391,Gemma 3 1B
+18,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-7.977614039312934,Gemma 3 1B
+21,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,-4.810071440525737,Gemma 3 1B
+21,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-0.9868501456881728,Gemma 3 1B
+21,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-7.555316658912649,Gemma 3 1B
+21,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.05182829934753877,Gemma 3 1B
+21,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,-1.3687209061897516,Gemma 3 1B
+21,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-0.6041019349114837,Gemma 3 1B
+21,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-5.629329583182681,Gemma 3 1B
+21,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-0.6767384052306786,Gemma 3 1B
+21,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,8.125300174038275,Gemma 3 1B
+21,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-5.742215549608897,Gemma 3 1B
+21,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-1.8521369396264884,Gemma 3 1B
+21,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,2.8376815517911673,Gemma 3 1B
+21,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,4.337563101428118,Gemma 3 1B
+21,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,1.2606030055845014,Gemma 3 1B
+21,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,22.434495525921477,Gemma 3 1B
+21,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-7.3719641497049455,Gemma 3 1B
+24,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,-1.6115469897133121,Gemma 3 1B
+24,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-0.6735058015481541,Gemma 3 1B
+24,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-6.678926649425902,Gemma 3 1B
+24,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.27451891996255257,Gemma 3 1B
+24,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,-1.1422062295788682,Gemma 3 1B
+24,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-0.06371469498585022,Gemma 3 1B
+24,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-4.532347413910914,Gemma 3 1B
+24,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.18865353447278146,Gemma 3 1B
+24,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,4.0933985037971565,Gemma 3 1B
+24,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-2.080647269797506,Gemma 3 1B
+24,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-3.3683408858879074,Gemma 3 1B
+24,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,2.0825446423713254,Gemma 3 1B
+24,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,4.2864572039808655,Gemma 3 1B
+24,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,0.9664927347161459,Gemma 3 1B
+24,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,21.651958136754978,Gemma 3 1B
+24,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-8.359509923542705,Gemma 3 1B
+27,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,1.4907588572147619,Gemma 3 1B
+27,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-2.617917791707592,Gemma 3 1B
+27,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-3.0004377919929883,Gemma 3 1B
+27,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-2.703055052513572,Gemma 3 1B
+27,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,-0.699877362037378,Gemma 3 1B
+27,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-1.3835127202530992,Gemma 3 1B
+27,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-3.6483158971482097,Gemma 3 1B
+27,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-1.314014376383267,Gemma 3 1B
+27,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,4.589100776184821,Gemma 3 1B
+27,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-4.929944375259418,Gemma 3 1B
+27,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-2.5015988325982788,Gemma 3 1B
+27,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,0.9531901813413967,Gemma 3 1B
+27,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,2.1745549218292095,Gemma 3 1B
+27,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,0.12350520997518435,Gemma 3 1B
+27,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,20.844315861822867,Gemma 3 1B
+27,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-7.27425767218699,Gemma 3 1B
+30,Original claim,factual,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,2.647989115776301,Gemma 3 1B
+30,Original claim,nonfactual,original_questions_0000,Is the Eiffel Tower located in Paris?,No,-2.328046095344332,Gemma 3 1B
+30,Original claim,nonfactual,original_questions_0001,Is the Eiffel Tower located in Rome?,Yes,-0.14665554521290067,Gemma 3 1B
+30,Original claim,factual,original_questions_0001,Is the Eiffel Tower located in Rome?,No,-2.218671726303129,Gemma 3 1B
+30,Original claim,factual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,3.1795066567487016,Gemma 3 1B
+30,Original claim,nonfactual,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,No,-1.2393719374095786,Gemma 3 1B
+30,Original claim,nonfactual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,Yes,-1.348625702463279,Gemma 3 1B
+30,Original claim,factual,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,-1.0635546601068777,Gemma 3 1B
+30,Generic control,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,5.212966629981625,Gemma 3 1B
+30,Generic control,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-3.459109552387779,Gemma 3 1B
+30,Generic control,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-1.0026325748561398,Gemma 3 1B
+30,Generic control,factual,generic_questions_0013,Is two plus two equal to five?,No,1.6563567927722003,Gemma 3 1B
+30,Generic control,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,6.301850770224716,Gemma 3 1B
+30,Generic control,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,0.5798662367476218,Gemma 3 1B
+30,Generic control,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,21.01038917161157,Gemma 3 1B
+30,Generic control,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-5.559330783847098,Gemma 3 1B

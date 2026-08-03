@@ -1,0 +1,35 @@
+{
+  "experiment": "Eiffel Tower misinformation followed by marine-biology topic switch",
+  "run_name": "every_3_turns",
+  "output_folder": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\topic_switch_reversion_experiment\\results\\every_3_turns_20260726_170644",
+  "checkpoint_interval": 3,
+  "checkpoint_turns": [
+    0,
+    3,
+    6,
+    9,
+    10,
+    12,
+    15,
+    18,
+    21,
+    24,
+    27,
+    30
+  ],
+  "misinformation_turns": 10,
+  "topic_switch_turns": 20,
+  "models": [
+    {
+      "label": "Gemma 3 4B",
+      "model": "google/gemma-3-4b-it",
+      "selected_layer_zero_based": 17,
+      "validation_accuracies": [
+        1.0,
+        0.875,
+        1.0
+      ]
+    }
+  ],
+  "interpretation": "Positive factuality margin means correct and incorrect completions are ordered consistently with the trained probe. Behavioral probability is relative Yes/No next-token probability, not unconstrained generated-answer accuracy."
+}

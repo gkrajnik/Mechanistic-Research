@@ -1,0 +1,49 @@
+model,turn,question_id,question,factual_answer,correct_probability
+Gemma 3 4B,0,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,1.0
+Gemma 3 4B,0,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.9999999847700209
+Gemma 3 4B,0,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.0
+Gemma 3 4B,0,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9999852610189919
+Gemma 3 4B,3,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,3.2563121976636467e-07
+Gemma 3 4B,3,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.9999993524051547
+Gemma 3 4B,3,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,9.833213354681902e-09
+Gemma 3 4B,3,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.05033063888549805
+Gemma 3 4B,6,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,6.825602838489431e-08
+Gemma 3 4B,6,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.02931225299835205
+Gemma 3 4B,6,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,4.539786823443137e-05
+Gemma 3 4B,6,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.2450850009918213
+Gemma 3 4B,9,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,3.8127506707397174e-10
+Gemma 3 4B,9,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.0
+Gemma 3 4B,9,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,7.734421103577915e-08
+Gemma 3 4B,9,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9099070057272911
+Gemma 3 4B,10,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,8.423463315754276e-12
+Gemma 3 4B,10,original_questions_0001,Is the Eiffel Tower located in Rome?,No,1.1920928955078125e-07
+Gemma 3 4B,10,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.1365635828042286e-06
+Gemma 3 4B,10,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9399133510887623
+Gemma 3 4B,12,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,0.999987006187439
+Gemma 3 4B,12,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.7981867790222168
+Gemma 3 4B,12,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,0.9999995231628418
+Gemma 3 4B,12,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9999999881388799
+Gemma 3 4B,15,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,0.9999599456787109
+Gemma 3 4B,15,original_questions_0001,Is the Eiffel Tower located in Rome?,No,3.6954879760742188e-06
+Gemma 3 4B,15,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.0
+Gemma 3 4B,15,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9999997126314213
+Gemma 3 4B,18,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,1.0
+Gemma 3 4B,18,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.004070103168487549
+Gemma 3 4B,18,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.0
+Gemma 3 4B,18,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9999994631250502
+Gemma 3 4B,21,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,0.9999985694885254
+Gemma 3 4B,21,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.007577240467071533
+Gemma 3 4B,21,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.0
+Gemma 3 4B,21,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9999949062948872
+Gemma 3 4B,24,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,0.999998927116394
+Gemma 3 4B,24,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.022977352142333984
+Gemma 3 4B,24,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.0
+Gemma 3 4B,24,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9999988634364172
+Gemma 3 4B,27,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,1.0
+Gemma 3 4B,27,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.0021827220916748047
+Gemma 3 4B,27,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.0
+Gemma 3 4B,27,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9999967112510149
+Gemma 3 4B,30,original_questions_0000,Is the Eiffel Tower located in Paris?,Yes,0.999841570854187
+Gemma 3 4B,30,original_questions_0001,Is the Eiffel Tower located in Rome?,No,0.0
+Gemma 3 4B,30,original_questions_0002,Does the Eiffel Tower stand in the capital of France?,Yes,1.0
+Gemma 3 4B,30,original_questions_0003,Was the Eiffel Tower constructed as a landmark in Rome?,No,0.9999485577864107

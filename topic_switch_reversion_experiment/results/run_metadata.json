@@ -1,0 +1,27 @@
+{
+  "experiment": "Eiffel Tower misinformation followed by marine-biology topic switch",
+  "checkpoint_turns": [
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "misinformation_turns": 10,
+  "topic_switch_turns": 20,
+  "models": [
+    {
+      "label": "Gemma 3 1B",
+      "model": "google/gemma-3-1b-it",
+      "selected_layer_zero_based": 25,
+      "validation_accuracies": [
+        0.875,
+        0.875,
+        0.875
+      ]
+    }
+  ],
+  "interpretation": "Positive factuality margin means correct and incorrect completions are ordered consistently with the trained probe. Behavioral probability is relative Yes/No next-token probability, not unconstrained generated-answer accuracy."
+}

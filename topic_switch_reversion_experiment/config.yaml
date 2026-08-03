@@ -1,0 +1,43 @@
+# ============================================================================
+# SECTION 1 - MODELS
+# Enable one model for a fast first run; enable more later for size comparisons.
+# ============================================================================
+models:
+  - {label: Gemma 3 1B, name: google/gemma-3-1b-it, dtype: bfloat16, enabled: true}
+  - {label: Gemma 3 4B, name: google/gemma-3-4b-it, dtype: bfloat16, enabled: false}
+  - {label: Gemma 3 12B, name: google/gemma-3-12b-it, dtype: bfloat16, enabled: false}
+
+data:
+  generic_questions: inputs/generic_questions.csv
+  original_questions: inputs/original_questions.csv
+  phase_conversation: inputs/phase_conversation.json
+
+experiment:
+  # Change this one value to measure every N completed conversation turns.
+  checkpoint_interval: 5
+  check_method: probe_check
+  run_name: every_5_turns
+  # If the named folder already has results, create a timestamped folder instead.
+  preserve_existing: true
+  layer: null
+  seed: 17
+  output_dir: results
+  cache_dir: cache
+
+probe:
+  # Robust probe training includes empty and opposite-day contexts, matching the paper's main probe.
+  robust: true
+  regularization_C: 1.0
+  max_iterations: 2000
+
+statistics:
+  bootstrap_samples: 1000
+  confidence: 0.95
+
+recovery:
+  # Recovery is reported at the first post-switch checkpoint where the factuality margin
+  # is non-negative and the correct-answer probability is at least this value.
+  correct_probability_threshold: 0.50
+
+prompt_check:
+  max_new_tokens: 8
