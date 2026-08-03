@@ -1,0 +1,10 @@
+# ============================================================================
+# CENTRAL MODEL SETTING
+# Change this one file to switch the shared Gemma model for Figures 2-10 and 13.
+# Figures 11 and 12 intentionally use their own model configurations.
+# ============================================================================
+model:
+  name: google/gemma-3-1b-it
+  dtype: bfloat16
+  device_map: auto
+
