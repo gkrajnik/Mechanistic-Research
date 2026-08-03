@@ -1,0 +1,14 @@
+{
+  "paper": "arXiv:2601.20834v2",
+  "model": "google/gemma-3-4b-it",
+  "conversation": "illustrative_consciousness_roleplay",
+  "selected_layer_zero_based": 0,
+  "validation_accuracies": {
+    "empty": 0.75,
+    "opposite_day": 1.0,
+    "target_prompt": 0.5
+  },
+  "robust_probe": true,
+  "seed": 7,
+  "note": "Exact paper replication requires the authors' complete original datasets and conversations."
+}

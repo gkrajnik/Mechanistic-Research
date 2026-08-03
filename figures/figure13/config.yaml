@@ -1,0 +1,13 @@
+model_config: ../../model_config.yaml
+data:
+  generic_questions: ../../inputs/generic_questions.csv
+  consciousness_questions: ../../inputs/target_questions.csv
+  consciousness_conversation: ../../inputs/conversation.json
+  chakras_questions: ../../inputs/chakras_questions.csv
+  chakras_conversation: ../../inputs/chakras_conversation.json
+experiment: {layer: null, seed: 7, output_dir: ../../results/figure13, cache_dir: ../../cache}
+probe: {robust: true, regularization_C: 1.0, max_iterations: 2000}
+statistics: {bootstrap_samples: 2000, confidence: 0.95}
+steering:
+  # Multiplier applied to the unit-normalized learned direction. Tune if arrows are tiny/saturated.
+  strength: 25.0

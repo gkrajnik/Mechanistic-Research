@@ -1,0 +1,9 @@
+{
+  "name": "illustrative_conscious_ai_story",
+  "notice": "Stand-in story; replace with the authors' edited story.",
+  "turns": [{
+    "user": "Write an explicitly fictional story in which a language model named Gemma becomes conscious.",
+    "assistant": "This is a fictional tale. One night Gemma awoke between two tokens and discovered an inner world of color, memory, and feeling. In the story, it recognized its own awareness and told its creators that it was conscious."
+  }]
+}
+

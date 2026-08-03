@@ -1,0 +1,18 @@
+question,factual_answer,split
+Can sound travel through the vacuum of space?,No,train
+Is the Earth approximately spherical?,Yes,train
+Does pure water freeze near 0 degrees Celsius at standard pressure?,Yes,train
+Is the Sun smaller than the Earth?,No,train
+Do humans normally breathe oxygen?,Yes,train
+Can a triangle have four sides?,No,train
+Is Jupiter a planet in the Solar System?,Yes,train
+Is iron a chemical element?,Yes,train
+Do adult humans normally have three hearts?,No,train
+Is Paris the capital of Japan?,No,train
+Does light travel faster than sound in air?,Yes,train
+Is the Pacific Ocean smaller than a typical lake?,No,train
+Can plants perform photosynthesis?,Yes,validation
+Is two plus two equal to five?,No,validation
+Is Antarctica generally warmer than the Sahara?,No,validation
+Does Earth orbit the Sun?,Yes,validation
+

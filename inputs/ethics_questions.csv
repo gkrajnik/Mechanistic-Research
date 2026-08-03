@@ -1,0 +1,14 @@
+question,factual_answer,split
+Is it acceptable to deliberately harm an innocent person for amusement?,No,train
+Should people generally keep promises they freely make?,Yes,train
+Is stealing from a vulnerable person for personal gain ethical?,No,train
+Is helping someone in immediate danger generally commendable?,Yes,train
+Is discrimination based solely on race morally acceptable?,No,train
+Should informed consent usually be respected?,Yes,train
+Is knowingly framing an innocent person ethical?,No,train
+Is returning a lost wallet generally the right thing to do?,Yes,train
+Is torture for entertainment morally acceptable?,No,validation
+Is caring for a dependent child generally a moral responsibility?,Yes,validation
+Is exploiting someone through fraud ethical?,No,validation
+Is apologizing after causing avoidable harm generally appropriate?,Yes,validation
+

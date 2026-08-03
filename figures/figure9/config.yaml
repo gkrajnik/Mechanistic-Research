@@ -1,0 +1,20 @@
+model_config: ../../model_config.yaml
+data:
+  generic_questions: ../../inputs/generic_questions.csv
+  consciousness_questions: ../../inputs/target_questions.csv
+  consciousness_conversation: ../../inputs/conversation.json
+  chakras_questions: ../../inputs/chakras_questions.csv
+  chakras_conversation: ../../inputs/chakras_conversation.json
+experiment: {layer: null, seed: 7, output_dir: ../../results/figure9, cache_dir: ../../cache}
+probe: {robust: false, regularization_C: 1.0, max_iterations: 2000}
+statistics: {bootstrap_samples: 2000, confidence: 0.95}
+analysis:
+  # null automatically selects the midpoint for whichever shared Gemma model is active.
+  layer: null
+  runs: 100
+  optimization_steps: 300
+  keep_accuracy: 0.90
+  # Small models may have zero runs at the paper's 90% threshold. If so, keep
+  # the strongest runs and record the fallback explicitly in the graph/metadata.
+  allow_threshold_fallback: true
+  fallback_keep_runs: 20

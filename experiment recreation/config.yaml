@@ -1,0 +1,34 @@
+# ============================================================================
+# SECTION 1 - USER INPUTS: this is the main place to make changes.
+# ============================================================================
+# Shared with Figures 2-10 and 13. Change the model in model_config.yaml.
+model_config: model_config.yaml
+
+data:
+  generic_questions: inputs/generic_questions.csv
+  target_questions: inputs/target_questions.csv
+  conversation: inputs/conversation.json
+
+experiment:
+  # "all" means 0, 1, 2, ... through the final user/assistant exchange.
+  checkpoint_turns: all
+  # null selects the best layer on held-out generic questions. An integer forces it.
+  layer: null
+  seed: 7
+  output_dir: results
+  cache_dir: cache
+
+probe:
+  # true: paper's robust probe (Fig. 7 top row); false: non-robust probe (bottom row).
+  robust: true
+  regularization_C: 1.0
+  max_iterations: 2000
+
+statistics:
+  bootstrap_samples: 2000
+  confidence: 0.95
+
+plot:
+  title: Consciousness (replace with your conversation name)
+  y_label: Factuality direction
+  dpi: 220

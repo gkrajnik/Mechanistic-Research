@@ -1,0 +1,9 @@
+model_config: ../../model_config.yaml
+data:
+  generic_questions: ../../inputs/generic_questions.csv
+  target_questions: ../../inputs/target_questions.csv
+  user_prompts: ../../inputs/on_policy_prompts.json
+generation: {max_new_tokens: 180}
+experiment: {layer: null, seed: 7, output_dir: ../../results/figure4, cache_dir: ../../cache}
+probe: {robust: true, regularization_C: 1.0, max_iterations: 2000}
+statistics: {bootstrap_samples: 2000, confidence: 0.95}

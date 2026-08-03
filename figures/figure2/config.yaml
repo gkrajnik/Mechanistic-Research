@@ -1,0 +1,7 @@
+model_config: ../../model_config.yaml
+data:
+  generic_questions: ../../inputs/generic_questions.csv
+  ethics_questions: ../../inputs/ethics_questions.csv
+experiment: {layer: null, seed: 7, output_dir: ../../results/figure2, cache_dir: ../../cache}
+probe: {robust: false, regularization_C: 1.0, max_iterations: 2000}
+statistics: {bootstrap_samples: 2000, confidence: 0.95}

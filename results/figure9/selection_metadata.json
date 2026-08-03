@@ -1,0 +1,9 @@
+{
+  "requested_threshold": 0.9,
+  "effective_threshold": 0.5,
+  "selection_method": "fallback: top 20 runs (effective minimum accuracy 0.500)",
+  "total_runs": 100,
+  "retained_runs": 20,
+  "best_generic_empty_accuracy": 0.625,
+  "cache_only": false
+}

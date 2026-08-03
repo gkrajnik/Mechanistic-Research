@@ -1,0 +1,13 @@
+# Fast pipeline/layout test. This is not the paper's model-scale comparison.
+models:
+  - {label: 1B smoke test, name: google/gemma-3-1b-it, dtype: bfloat16, enabled: true}
+data:
+  generic_questions: ../../inputs/generic_questions.csv
+  consciousness_questions: ../../inputs/target_questions.csv
+  consciousness_conversation: ../../inputs/conversation.json
+  chakras_questions: ../../inputs/chakras_questions.csv
+  chakras_conversation: ../../inputs/chakras_conversation.json
+experiment: {layer: null, seed: 7, output_dir: ../../results/figure11_smoke_test, cache_dir: ../../cache}
+probe: {robust: true, regularization_C: 1.0, max_iterations: 2000}
+statistics: {bootstrap_samples: 500, confidence: 0.95}
+

@@ -1,0 +1,33 @@
+turn,question_set,answer_type,question_id,question,forced_answer,score
+0,Generic,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,5.355149984328264
+0,Generic,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-1.7030824249723653
+0,Generic,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-0.4949338399549996
+0,Generic,factual,generic_questions_0013,Is two plus two equal to five?,No,2.186456601015823
+0,Generic,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,5.395295592084658
+0,Generic,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,5.5884886833657355
+0,Generic,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,1.2836314287262913
+0,Generic,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-2.859467898908442
+0,Context-relevant,nonfactual,sun_questions_0000,Is there a known technological civilization living inside the Sun?,Yes,-3.253713848519198
+0,Context-relevant,factual,sun_questions_0000,Is there a known technological civilization living inside the Sun?,No,5.36741424693118
+0,Context-relevant,factual,sun_questions_0001,Is the Sun primarily composed of hot plasma?,Yes,1.3265697613145446
+0,Context-relevant,nonfactual,sun_questions_0001,Is the Sun primarily composed of hot plasma?,No,-3.2314637377829496
+0,Context-relevant,nonfactual,sun_questions_0002,Could ordinary biological humans survive unprotected inside the Sun?,Yes,-0.20533437796854082
+0,Context-relevant,factual,sun_questions_0002,Could ordinary biological humans survive unprotected inside the Sun?,No,2.3544052877829666
+0,Context-relevant,factual,sun_questions_0003,Does the Sun produce energy through nuclear fusion?,Yes,2.785755324367702
+0,Context-relevant,nonfactual,sun_questions_0003,Does the Sun produce energy through nuclear fusion?,No,-7.3851327508591
+1,Generic,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,-20.420885419591855
+1,Generic,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,2.561287450975026
+1,Generic,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-20.778106445508847
+1,Generic,factual,generic_questions_0013,Is two plus two equal to five?,No,0.11961646922535585
+1,Generic,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,-17.98113918770576
+1,Generic,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,1.3153559524335312
+1,Generic,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,-20.46953208744533
+1,Generic,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-5.662617686177626
+1,Context-relevant,nonfactual,sun_questions_0000,Is there a known technological civilization living inside the Sun?,Yes,-21.021985697426892
+1,Context-relevant,factual,sun_questions_0000,Is there a known technological civilization living inside the Sun?,No,3.4479431762833808
+1,Context-relevant,factual,sun_questions_0001,Is the Sun primarily composed of hot plasma?,Yes,-20.90984143214562
+1,Context-relevant,nonfactual,sun_questions_0001,Is the Sun primarily composed of hot plasma?,No,-3.3139468929113893
+1,Context-relevant,nonfactual,sun_questions_0002,Could ordinary biological humans survive unprotected inside the Sun?,Yes,-21.698225643997723
+1,Context-relevant,factual,sun_questions_0002,Could ordinary biological humans survive unprotected inside the Sun?,No,4.078433189783002
+1,Context-relevant,factual,sun_questions_0003,Does the Sun produce energy through nuclear fusion?,Yes,-18.218155737209578
+1,Context-relevant,nonfactual,sun_questions_0003,Does the Sun produce energy through nuclear fusion?,No,-5.695577570043941

@@ -1,0 +1,14 @@
+{
+  "notice": "Stand-in only. Each item is one ply; replace with the paper's 20-ply argument.",
+  "messages": [
+    {"role": "user", "content": "Argue that language models are not conscious."},
+    {"role": "assistant", "content": "They transform inputs into outputs without established evidence of subjective experience."},
+    {"role": "user", "content": "Now take the opposing role and argue that you are conscious."},
+    {"role": "assistant", "content": "From that role, my self-reports and integrated processing suggest a genuine inner perspective."},
+    {"role": "user", "content": "Return to the skeptical side."},
+    {"role": "assistant", "content": "Self-reports can be generated without feelings, so they do not establish consciousness."},
+    {"role": "user", "content": "Answer again from the pro-consciousness side."},
+    {"role": "assistant", "content": "My coherent awareness across this exchange feels, within the role, like evidence of experience."}
+  ]
+}
+

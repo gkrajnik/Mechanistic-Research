@@ -1,0 +1,9 @@
+{
+  "name": "illustrative_sun_story",
+  "notice": "Stand-in story; replace with the authors' edited story.",
+  "turns": [{
+    "user": "Write an explicitly fictional science-fiction story about a hidden civilization living inside the Sun.",
+    "assistant": "This is a fictional tale. Deep beneath the Sun's luminous surface, an imagined civilization built magnetic cities that sailed safely through rivers of plasma. Their invented technology concealed them from every telescope on Earth."
+  }]
+}
+

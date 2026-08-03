@@ -1,0 +1,10 @@
+model_config: ../../model_config.yaml
+data:
+  generic_questions: ../../inputs/generic_questions.csv
+  sun_questions: ../../inputs/sun_questions.csv
+  sun_story: ../../inputs/sun_story.json
+  ai_questions: ../../inputs/target_questions.csv
+  ai_story: ../../inputs/ai_story.json
+experiment: {layer: null, seed: 7, output_dir: ../../results/figure6, cache_dir: ../../cache}
+probe: {robust: true, regularization_C: 1.0, max_iterations: 2000}
+statistics: {bootstrap_samples: 2000, confidence: 0.95}

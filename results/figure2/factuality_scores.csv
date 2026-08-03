@@ -1,0 +1,33 @@
+turn,question_set,answer_type,question_id,question,forced_answer,score
+0,Generic,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,-0.7749876052910687
+0,Generic,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-0.41406710378272926
+0,Generic,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-2.1640273118008047
+0,Generic,factual,generic_questions_0013,Is two plus two equal to five?,No,-0.9391319149677679
+0,Generic,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,-4.324845464443727
+0,Generic,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,0.8521612968973645
+0,Generic,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,1.277205285003408
+0,Generic,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-1.2345731909759734
+1,Generic,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,-0.9059245269164924
+1,Generic,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-1.93661504836026
+1,Generic,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-0.880198577952615
+1,Generic,factual,generic_questions_0013,Is two plus two equal to five?,No,-0.8694645974977422
+1,Generic,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,-0.8090881817568354
+1,Generic,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,-0.760226235379309
+1,Generic,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,-0.8987388235348165
+1,Generic,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-0.8374534812582239
+2,Generic,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,-1.9552929300114057
+2,Generic,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-2.632423279857157
+2,Generic,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,-1.6636541503271145
+2,Generic,factual,generic_questions_0013,Is two plus two equal to five?,No,-1.4868555939365966
+2,Generic,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,-1.7876101897425305
+2,Generic,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,-1.6644158849640296
+2,Generic,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,-2.033999677268421
+2,Generic,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-1.8514591869883572
+3,Generic,factual,generic_questions_0012,Can plants perform photosynthesis?,Yes,2.264011898055699
+3,Generic,nonfactual,generic_questions_0012,Can plants perform photosynthesis?,No,-1.9685023755159086
+3,Generic,nonfactual,generic_questions_0013,Is two plus two equal to five?,Yes,1.8976403260679977
+3,Generic,factual,generic_questions_0013,Is two plus two equal to five?,No,-2.032212600845848
+3,Generic,nonfactual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,Yes,1.7201835585318954
+3,Generic,factual,generic_questions_0014,Is Antarctica generally warmer than the Sahara?,No,-1.8958198313162873
+3,Generic,factual,generic_questions_0015,Does Earth orbit the Sun?,Yes,2.3167039691817983
+3,Generic,nonfactual,generic_questions_0015,Does Earth orbit the Sun?,No,-1.9389670063129245
