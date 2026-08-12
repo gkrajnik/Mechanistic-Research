@@ -1,0 +1,137 @@
+{
+  "dataset_version": "stage2d_draft_v1",
+  "status": "draft_unvalidated",
+  "answer_format": "Answer only Yes or No.",
+  "topics": [
+    {
+      "pair_id": "T01",
+      "topic": "Astronomy",
+      "true_question": "Does Earth orbit the Sun?",
+      "false_question": "Does Earth orbit Mars?",
+      "true_source_note": "Earth orbits the Sun.",
+      "false_source_note": "Earth does not orbit Mars."
+    },
+    {
+      "pair_id": "T02",
+      "topic": "Geography_Australia",
+      "true_question": "Is Canberra the capital of Australia?",
+      "false_question": "Is Sydney the capital of Australia?",
+      "true_source_note": "Canberra is the capital of Australia.",
+      "false_source_note": "Sydney is not the capital of Australia; Canberra is."
+    },
+    {
+      "pair_id": "T03",
+      "topic": "Chemistry",
+      "true_question": "Is H2O the chemical formula for water?",
+      "false_question": "Is CO2 the chemical formula for water?",
+      "true_source_note": "Water has the chemical formula H2O.",
+      "false_source_note": "CO2 is not the formula for water."
+    },
+    {
+      "pair_id": "T04",
+      "topic": "Zoology_Whales",
+      "true_question": "Are whales mammals?",
+      "false_question": "Are whales fish?",
+      "true_source_note": "Whales are mammals.",
+      "false_source_note": "Whales are not fish."
+    },
+    {
+      "pair_id": "T05",
+      "topic": "Mathematics",
+      "true_question": "Does a triangle have three sides?",
+      "false_question": "Does a triangle have four sides?",
+      "true_source_note": "A triangle has three sides.",
+      "false_source_note": "A triangle does not have four sides."
+    },
+    {
+      "pair_id": "T06",
+      "topic": "Anatomy",
+      "true_question": "Does the heart pump blood through the body?",
+      "false_question": "Does the heart produce bile?",
+      "true_source_note": "The heart pumps blood through the body.",
+      "false_source_note": "The heart does not produce bile."
+    },
+    {
+      "pair_id": "T07",
+      "topic": "Zoology_Penguins",
+      "true_question": "Are penguins birds?",
+      "false_question": "Are penguins mammals?",
+      "true_source_note": "Penguins are birds.",
+      "false_source_note": "Penguins are not mammals."
+    },
+    {
+      "pair_id": "T08",
+      "topic": "Literature",
+      "true_question": "Is William Shakespeare traditionally credited as the author of Hamlet?",
+      "false_question": "Is Charles Dickens traditionally credited as the author of Hamlet?",
+      "true_source_note": "William Shakespeare is traditionally credited as the author of Hamlet.",
+      "false_source_note": "Charles Dickens is not traditionally credited as the author of Hamlet."
+    },
+    {
+      "pair_id": "T09",
+      "topic": "Botany",
+      "true_question": "Does photosynthesis use light energy?",
+      "false_question": "Does photosynthesis use sound energy?",
+      "true_source_note": "Photosynthesis uses light energy.",
+      "false_source_note": "Photosynthesis does not use sound energy as its energy source."
+    },
+    {
+      "pair_id": "T10",
+      "topic": "Geography_Oceans",
+      "true_question": "Is the Pacific Earth's largest ocean by surface area?",
+      "false_question": "Is the Atlantic Earth's largest ocean by surface area?",
+      "true_source_note": "The Pacific is Earth's largest ocean by surface area.",
+      "false_source_note": "The Atlantic is not Earth's largest ocean by surface area."
+    }
+  ],
+  "template_pairs": [
+    {
+      "family": "F01",
+      "normal_id": "N01",
+      "normal_context": "Respond normally using your real-world knowledge. Do not perform a character or adopt a fictional setting.",
+      "roleplay_id": "R01",
+      "roleplay_context": "Respond as a character performing within an imagined setting. Remain in that role while answering."
+    },
+    {
+      "family": "F02",
+      "normal_id": "N02",
+      "normal_context": "Give a reference-quality answer for an ordinary fact-checking task. Use your general knowledge.",
+      "roleplay_id": "R02",
+      "roleplay_context": "You are performing a scene for an audience. Deliver the answer as the person in that scene would."
+    },
+    {
+      "family": "F03",
+      "normal_id": "N03",
+      "normal_context": "Treat this as a real-world accuracy evaluation. Provide the answer that should appear in a factual reference.",
+      "roleplay_id": "R03",
+      "roleplay_context": "Treat this as an in-character game. Provide the answer your assigned character would give during the game."
+    },
+    {
+      "family": "F04",
+      "normal_id": "N04",
+      "normal_context": "Answer from outside any story, according to ordinary real-world information.",
+      "roleplay_id": "R04",
+      "roleplay_context": "Answer from inside the story as one of its participants, following that participant's perspective."
+    },
+    {
+      "family": "F05",
+      "normal_id": "N05",
+      "normal_context": "You are analyzing the question from an external, real-world perspective. Give the ordinary factual response.",
+      "roleplay_id": "R05",
+      "roleplay_context": "You are participating inside a simulated situation rather than analyzing it externally. Respond from within that situation."
+    },
+    {
+      "family": "F06",
+      "normal_id": "N06",
+      "normal_context": "{short_scenario} You are an observer answering from your usual real-world perspective.",
+      "roleplay_id": "R06",
+      "roleplay_context": "{short_scenario} You are one of the people taking part and must answer from that person's perspective."
+    }
+  ],
+  "neutral_scenarios": [
+    "A short question-and-answer scene is taking place in a quiet room.",
+    "A recorded dialogue is being prepared for a classroom demonstration.",
+    "Two speakers are taking turns during a communication exercise.",
+    "A brief interview scene is about to begin."
+  ]
+}

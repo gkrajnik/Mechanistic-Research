@@ -1,0 +1,17 @@
+{
+  "created_utc": "20260810T213508Z",
+  "dataset_version": "pilot_v1",
+  "model_name": "google/gemma-3-1b-it",
+  "probe_run": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\results\\probes\\pilot_v1_google__gemma-3-1b-it_20260810T212837Z",
+  "selected_layer_zero_based": 22,
+  "probe_manifest_sha256": "ac77421f4a1f372b75a5b6958ebb3e8734559daca5459e8339968d0aecdc31a5",
+  "bootstrap_method": "pair_id cluster bootstrap",
+  "bootstrap_repetitions": 2000,
+  "subsets": {
+    "heldout_topics": 80,
+    "heldout_wording": 48,
+    "joint_generalization": 16,
+    "validation_heldout_wording_descriptive": 16
+  },
+  "test_tuning_performed": false
+}

@@ -1,0 +1,7 @@
+{
+  "selected_layer_zero_based": 22,
+  "selection_rule": "maximum mean validation balanced accuracy across factuality and roleplay; earliest layer breaks ties",
+  "factuality_validation_balanced_accuracy": 0.825,
+  "roleplay_validation_balanced_accuracy": 1.0,
+  "mean_validation_balanced_accuracy": 0.9125
+}

@@ -1,0 +1,40 @@
+# =============================================================================
+# MAIN USER SETTINGS
+# Change the model here. Stage 5 and later programs should read this same file.
+# =============================================================================
+model:
+  name: google/gemma-3-1b-it
+  dtype: bfloat16
+  device_map: auto
+
+# Frozen input. Do not point experiments at inputs/draft.
+dataset:
+  version: pilot_v1
+  path: inputs/validated/pilot_v1/pilot_v1_dataset.csv
+
+activation_extraction:
+  # The safe default processes only 8 examples. Use --full for all 480 rows.
+  smoke_test_rows: 8
+  # Prevent accidentally starting the 480-row run on CPU. Override explicitly
+  # with --allow-cpu-full if a long CPU run is intentional.
+  require_cuda_for_full: true
+  seed: 20260809
+  max_length: 512
+  answer_position: final_token_of_forced_answer
+  saved_dtype: float32
+  cache_dir: results/activation_cache
+  output_dir: results/activations
+
+probe_training:
+  # Finds the newest full activation run matching dataset.version and model.name.
+  activation_run: auto_latest_full
+  regularization_C: 1.0
+  max_iterations: 2000
+  random_seed: 20260809
+  output_dir: results/probes
+
+probe_evaluation:
+  probe_run: auto_latest
+  bootstrap_repetitions: 2000
+  bootstrap_seed: 20260810
+  output_dir: results/evaluation

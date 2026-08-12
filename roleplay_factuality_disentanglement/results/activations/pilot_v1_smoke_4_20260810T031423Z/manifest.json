@@ -1,0 +1,22 @@
+{
+  "created_utc": "20260810T031423Z",
+  "dataset_version": "pilot_v1",
+  "model_name": "google/gemma-3-1b-it",
+  "model_revision": "dcc83ea841ab6100d6b47a070329e1ba4cf78752",
+  "runtime_device": "cuda:0",
+  "mode": "smoke_4",
+  "example_count": 4,
+  "activation_shape": [
+    4,
+    26,
+    1152
+  ],
+  "answer_position": "final_token_of_forced_answer",
+  "saved_dtype": "float32",
+  "transformers_version": "5.14.1",
+  "torch_version": "2.10.0+cu128",
+  "numpy_version": "2.4.2",
+  "python_version": "3.11.4",
+  "config_path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\config.yaml",
+  "command": "scripts\\02_extract_activations.py --limit 4 --ignore-cache"
+}

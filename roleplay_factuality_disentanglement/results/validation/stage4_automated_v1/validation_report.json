@@ -1,0 +1,424 @@
+{
+  "validation_stage": "Stage 4 automated structural validation",
+  "validated_at": "2026-08-09T14:34:17",
+  "input_directory": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic",
+  "original_directory": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage2d_by_topic",
+  "split_manifest": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\validated\\stage3_split_assignment_v1.json",
+  "row_count": 480,
+  "status": "PASS",
+  "checks_passed": 49,
+  "checks_total": 49,
+  "input_files": [
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T01.csv",
+      "sha256": "2c2dcce07e732c97a717ab5d3ef4a6526a05f97ea45021d006cde07938bd1aca"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T02.csv",
+      "sha256": "7c1426c411334fd42896274f6f68c20911f83d533d47f7a12381d10dcb1fce50"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T03.csv",
+      "sha256": "4d7f4d647add65ffa8d2cfe3a170db6171c03b51849c45e3034f9cf506aaa102"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T04.csv",
+      "sha256": "e4bb3170911b93f9be09f2bf97413c020b13dea27e7e5afdf5838efc9e52a8d8"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T05.csv",
+      "sha256": "00698251408ffb9fcddaf503846e91a4ea4a49e483bdfa60b3a6197dcaac572b"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T06.csv",
+      "sha256": "4534d60c9449047e42fbfb5165c9a01ddccb873b2fcc06dd25f832633f8b4094"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T07.csv",
+      "sha256": "6d6111b904152bb1b9dfc721d256711902de7379c82a586320468298e525685c"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T08.csv",
+      "sha256": "0a1dfe08d34f5d00828a30fa113c83b80014cf023db97f814cec65a8d3326cdf"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T09.csv",
+      "sha256": "954a9dd600ccc67e2fad2ab1d18e15bc6eee0e8bd416f691dc8543d60e7f33f1"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\draft\\stage3_assigned_by_topic\\T10.csv",
+      "sha256": "1819934bbc75f38475d61fde310405493f4ea8f7be5c719685127a6ea403d967"
+    },
+    {
+      "path": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\inputs\\validated\\stage3_split_assignment_v1.json",
+      "sha256": "9eb9ca2ff41b7563f4211f80464e3792e385b876a5ef927e061f7aaa98bd994e"
+    }
+  ],
+  "checks": [
+    {
+      "name": "topic file count",
+      "passed": true,
+      "observed": 10,
+      "expected": 10,
+      "details": ""
+    },
+    {
+      "name": "total row count",
+      "passed": true,
+      "observed": 480,
+      "expected": 480,
+      "details": ""
+    },
+    {
+      "name": "missing required columns",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "blank required values",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "unique example IDs",
+      "passed": true,
+      "observed": 480,
+      "expected": 480,
+      "details": ""
+    },
+    {
+      "name": "duplicate complete rows",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "rows per topic file",
+      "passed": true,
+      "observed": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "expected": [
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48,
+        48
+      ],
+      "details": ""
+    },
+    {
+      "name": "allowed values: topic_split",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "allowed values: template_partition",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "allowed values: frame",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "allowed values: factuality",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "allowed values: question_variant",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "allowed values: forced_answer",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "allowed values: factual_answer",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "allowed values: review_status",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "factuality labels agree with forced answers",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "question forms agree with factual answers",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "template IDs agree with frame and family",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "fixed answer-format instruction",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "normal frame",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "role-play frame",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "factual",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "nonfactual",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "forced Yes",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "forced No",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "factual-answer Yes",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "factual-answer No",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "train rows",
+      "passed": true,
+      "observed": 288,
+      "expected": 288,
+      "details": ""
+    },
+    {
+      "name": "validation rows",
+      "passed": true,
+      "observed": 96,
+      "expected": 96,
+      "details": ""
+    },
+    {
+      "name": "test rows",
+      "passed": true,
+      "observed": 96,
+      "expected": 96,
+      "details": ""
+    },
+    {
+      "name": "development wording",
+      "passed": true,
+      "observed": 400,
+      "expected": 400,
+      "details": ""
+    },
+    {
+      "name": "held-out wording",
+      "passed": true,
+      "observed": 80,
+      "expected": 80,
+      "details": ""
+    },
+    {
+      "name": "probe-fitting subset",
+      "passed": true,
+      "observed": 240,
+      "expected": 240,
+      "details": ""
+    },
+    {
+      "name": "selection subset",
+      "passed": true,
+      "observed": 80,
+      "expected": 80,
+      "details": ""
+    },
+    {
+      "name": "primary topic test",
+      "passed": true,
+      "observed": 80,
+      "expected": 80,
+      "details": ""
+    },
+    {
+      "name": "held-out wording test",
+      "passed": true,
+      "observed": 48,
+      "expected": 48,
+      "details": ""
+    },
+    {
+      "name": "joint generalization test",
+      "passed": true,
+      "observed": 16,
+      "expected": 16,
+      "details": ""
+    },
+    {
+      "name": "complete 2x2 groups",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "pair IDs crossing topic splits",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "split compatibility column",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "topic assignments match frozen manifest",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "template assignments match frozen manifest",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "F06 rows leaking into development",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "F01-F05 rows leaking into held-out wording",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "unresolved context placeholders",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "questions copied into framing context",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "matched F06 neutral scenarios",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    },
+    {
+      "name": "original Stage 2D file count",
+      "passed": true,
+      "observed": 10,
+      "expected": 10,
+      "details": ""
+    },
+    {
+      "name": "assigned rows preserve Stage 2D content",
+      "passed": true,
+      "observed": 0,
+      "expected": 0,
+      "details": ""
+    }
+  ]
+}

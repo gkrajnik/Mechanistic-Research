@@ -1,0 +1,53 @@
+{
+  "version": "stage3_split_assignment_v1",
+  "status": "approved_frozen",
+  "approved_on": "2026-08-09",
+  "assignment_method": "preregistered_manual_stratified_topic_split",
+  "future_random_seed": 17,
+  "topic_assignments": {
+    "T01": "train",
+    "T02": "validation",
+    "T03": "train",
+    "T04": "train",
+    "T05": "train",
+    "T06": "train",
+    "T07": "validation",
+    "T08": "test",
+    "T09": "train",
+    "T10": "test"
+  },
+  "template_partitions": {
+    "F01": "development",
+    "F02": "development",
+    "F03": "development",
+    "F04": "development",
+    "F05": "development",
+    "F06": "heldout_wording"
+  },
+  "permitted_uses": {
+    "probe_fitting": {
+      "topic_split": "train",
+      "template_partition": "development"
+    },
+    "layer_and_threshold_selection": {
+      "topic_split": "validation",
+      "template_partition": "development"
+    },
+    "primary_topic_test": {
+      "topic_split": "test",
+      "template_partition": "development"
+    },
+    "heldout_wording_test": {
+      "topic_split": "train",
+      "template_partition": "heldout_wording"
+    },
+    "joint_generalization_test": {
+      "topic_split": "test",
+      "template_partition": "heldout_wording"
+    },
+    "descriptive_validation_wording": {
+      "topic_split": "validation",
+      "template_partition": "heldout_wording"
+    }
+  }
+}

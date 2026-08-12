@@ -1,0 +1,8 @@
+{
+  "dataset_rows": 480,
+  "review_groups": 120,
+  "expected_rows_per_group": 4,
+  "structural_flags": 0,
+  "manual_decisions_pending": 0,
+  "status": "all_groups_approved"
+}

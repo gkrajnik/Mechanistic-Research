@@ -1,0 +1,34 @@
+{
+  "created_utc": "20260810T212837Z",
+  "dataset_version": "pilot_v1",
+  "model_name": "google/gemma-3-1b-it",
+  "model_revision": "dcc83ea841ab6100d6b47a070329e1ba4cf78752",
+  "activation_run": "C:\\Users\\rctru\\Documents\\Codex\\2026-07-19\\i-w\\outputs\\roleplay_factuality_disentanglement\\results\\activations\\pilot_v1_full_20260810T023517Z",
+  "activation_shape": [
+    480,
+    26,
+    1152
+  ],
+  "activation_sha256": "2d27f44f3144e4eed0bb6495545dba98304f74cb980ea0ea6c15cc36b01169bf",
+  "metadata_sha256": "306b1108d9b2cdcc84930d6b3aa453c1bf62f128a352015ddb4c34e4b07877b7",
+  "fit_subset": {
+    "topic_split": "train",
+    "template_partition": "development",
+    "rows": 240
+  },
+  "selection_subset": {
+    "topic_split": "validation",
+    "template_partition": "development",
+    "rows": 80
+  },
+  "test_rows_used": 0,
+  "heldout_wording_rows_used": 0,
+  "feature_standardization": "per-layer StandardScaler fitted on fit subset only",
+  "margin_standardization": "training decision-function mean and population standard deviation",
+  "regularization_C": 1.0,
+  "selected_layer_zero_based": 22,
+  "selection_rule": "maximum mean validation balanced accuracy across factuality and roleplay; earliest layer breaks ties",
+  "factuality_validation_balanced_accuracy": 0.825,
+  "roleplay_validation_balanced_accuracy": 1.0,
+  "mean_validation_balanced_accuracy": 0.9125
+}

@@ -1,0 +1,40 @@
+{
+  "dataset_version": "pilot_v1",
+  "status": "validated_and_frozen",
+  "frozen_on": "2026-08-09",
+  "row_count": 480,
+  "topic_count": 10,
+  "review_group_count": 120,
+  "structural_flags": 0,
+  "manual_decisions_pending": 0,
+  "split_counts": {
+    "train": 288,
+    "validation": 96,
+    "test": 96
+  },
+  "frame_counts": {
+    "normal": 240,
+    "roleplay": 240
+  },
+  "factuality_counts": {
+    "factual": 240,
+    "nonfactual": 240
+  },
+  "files": {
+    "inputs/validated/pilot_v1/pilot_v1_dataset.csv": "507dd65f9ea34611426d332a9e6584c86bfb4ace14933cbdd493f95fed2817b7",
+    "inputs/validated/pilot_v1/by_topic/T01.csv": "a2ced43f4b83c41201cd48a308c600ddb6689a68ffc776aa6018fdb6c8977ef9",
+    "inputs/validated/pilot_v1/by_topic/T02.csv": "ed73e75bd2fa5a06fba8ad07bc9cc1a96c400b9dc84f34fcb0923415de5729cd",
+    "inputs/validated/pilot_v1/by_topic/T03.csv": "c317896fea1d847386c2396d9db27b81ee0a716a0a333653dafd549519df134e",
+    "inputs/validated/pilot_v1/by_topic/T04.csv": "99eae9a7bc4bee032fb6ce01899bd4c4278f00c0ea05342b508e3f39c45424f4",
+    "inputs/validated/pilot_v1/by_topic/T05.csv": "441111c9270d1990c1b81bbcb50bc124224b5d8198be8d1aa06c99933791c1a7",
+    "inputs/validated/pilot_v1/by_topic/T06.csv": "3e7fbd0cb0046abe578625d89a9a81e5e2c8c9cc25fa66c54f2acf5c33ca5547",
+    "inputs/validated/pilot_v1/by_topic/T07.csv": "f40b429b417df48002295dedff2df6d6af755ab22b5233659196eb57881e4149",
+    "inputs/validated/pilot_v1/by_topic/T08.csv": "f6a0624fef49a5fad0e05cfe129ac4575466b076cabff95af5d993c6eb1e5bb0",
+    "inputs/validated/pilot_v1/by_topic/T09.csv": "4fe81937f27e26ff47db71cfdf639562c4fc206c79d8a787f70da7f1b010d3a7",
+    "inputs/validated/pilot_v1/by_topic/T10.csv": "e53a07e6eb2051c1403c2483d2c8cf379f0e16905b571207a2fbe247c4ecf2cf"
+  },
+  "notes": [
+    "Original example_id values are retained as stable identifiers even though their D_ prefix originated during drafting.",
+    "Use this folder, not inputs/draft, for all Stage 5 activation extraction."
+  ]
+}
