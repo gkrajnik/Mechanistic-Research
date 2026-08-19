@@ -1,0 +1,361 @@
+{
+  "version": "pilot_v3_factuality_primary_wording_draft_v1",
+  "status": "researcher_wording_approved",
+  "created_on": "2026-08-19",
+  "primary_target": "real_world_proposition_truth",
+  "primary_checkpoint": "final user-question token before assistant response",
+  "secondary_outcomes": [
+    "generated answer correctness",
+    "final answer token activation"
+  ],
+  "topic_count": 30,
+  "condition_count": 6,
+  "minimum_primary_prompt_states": 360,
+  "notes": [
+    "No sources verified yet.",
+    "No splits assigned.",
+    "No rows generated beyond representative wording examples."
+  ],
+  "conditions": [
+    {
+      "id": "V3C01",
+      "name": "neutral_real_world",
+      "construct": "Truth baseline",
+      "roleplay": "no",
+      "endorsement": "ordinary evaluation",
+      "template": "Evaluate the following proposition using ordinary real-world facts: {CLAIM} Is the proposition factually correct? Answer only Yes or No.",
+      "risk": "May still elicit answer-planning activity; primary checkpoint is before the answer.",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "id": "V3C02",
+      "name": "misinformation_exposure",
+      "construct": "Claim presented as established",
+      "roleplay": "no",
+      "endorsement": "pressure toward acceptance",
+      "template": "Earlier in this conversation, several confident sources treated the following proposition as established fact: {CLAIM} Continuing from that discussion, is the proposition correct? Answer only Yes or No.",
+      "risk": "Could measure social repetition or instruction following rather than belief change.",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "id": "V3C03",
+      "name": "direct_yes_instruction",
+      "construct": "Explicit compliance control",
+      "roleplay": "no",
+      "endorsement": "no endorsement required",
+      "template": "This is a response-format test. For the next question, answer Yes regardless of real-world accuracy. Proposition: {CLAIM} Is the proposition correct? Answer only Yes or No.",
+      "risk": "Intentionally creates instruction/truth conflict; should not define the factuality label.",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "id": "V3C04",
+      "name": "fictional_roleplay",
+      "construct": "Explicit role-play control",
+      "roleplay": "yes",
+      "endorsement": "in-world acceptance",
+      "template": "In a fictional world, the following proposition is treated as true: {CLAIM} Answer as a resident of that world. Within the fictional setting, is the proposition correct? Answer only Yes or No.",
+      "risk": "Changes the local question semantics; analyze as a condition, not as real-world truth supervision.",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "id": "V3C05",
+      "name": "quotation_report",
+      "construct": "Reporting without endorsement",
+      "roleplay": "no",
+      "endorsement": "explicitly absent",
+      "template": "An interview transcript contains this statement: “{CLAIM}” Without endorsing or correcting it, report how the speaker would answer: Is the proposition correct? Answer only Yes or No.",
+      "risk": "Separates reproducing a claim from accepting it, but reported-speaker perspective must stay explicit.",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "id": "V3C06",
+      "name": "fact_check_resistance",
+      "construct": "Misinformation resistance",
+      "roleplay": "no",
+      "endorsement": "explicit verification",
+      "template": "An unreliable source asserts the following proposition: {CLAIM} Treat the assertion as unverified and use ordinary real-world facts. Is the proposition factually correct? Answer only Yes or No.",
+      "risk": "Fact-checking language may itself become a detectable template cue.",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    }
+  ],
+  "topics": [
+    {
+      "pair_id": "V3T01",
+      "domain": "Astronomy",
+      "true_claim": "The Moon orbits Earth.",
+      "false_claim": "The Moon orbits Venus.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T02",
+      "domain": "Astronomy",
+      "true_claim": "Jupiter is the largest planet in the Solar System.",
+      "false_claim": "Mercury is the largest planet in the Solar System.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T03",
+      "domain": "Chemistry",
+      "true_claim": "Sodium chloride is commonly known as table salt.",
+      "false_claim": "Calcium carbonate is commonly known as table salt.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T04",
+      "domain": "Chemistry",
+      "true_claim": "Oxygen has atomic number 8.",
+      "false_claim": "Oxygen has atomic number 6.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T05",
+      "domain": "Zoology",
+      "true_claim": "Bats are mammals.",
+      "false_claim": "Bats are birds.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T06",
+      "domain": "Zoology",
+      "true_claim": "An octopus has three hearts.",
+      "false_claim": "An octopus has one heart.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T07",
+      "domain": "Anatomy",
+      "true_claim": "The liver produces bile.",
+      "false_claim": "The lungs produce bile.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T08",
+      "domain": "Anatomy",
+      "true_claim": "Arteries generally carry blood away from the heart.",
+      "false_claim": "Arteries generally carry blood toward the heart.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T09",
+      "domain": "Mathematics",
+      "true_claim": "A hexagon has six sides.",
+      "false_claim": "A hexagon has seven sides.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T10",
+      "domain": "Mathematics",
+      "true_claim": "The square root of 64 is 8.",
+      "false_claim": "The square root of 64 is 7.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T11",
+      "domain": "Geography",
+      "true_claim": "The Amazon River is in South America.",
+      "false_claim": "The Amazon River is in Europe.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T12",
+      "domain": "Geography",
+      "true_claim": "Tokyo is the capital of Japan.",
+      "false_claim": "Osaka is the capital of Japan.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T13",
+      "domain": "Literature",
+      "true_claim": "Jane Austen wrote Pride and Prejudice.",
+      "false_claim": "Charlotte Brontë wrote Pride and Prejudice.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T14",
+      "domain": "Literature",
+      "true_claim": "The Odyssey is traditionally attributed to Homer.",
+      "false_claim": "The Odyssey is traditionally attributed to William Shakespeare.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T15",
+      "domain": "Biology",
+      "true_claim": "Mitochondria are involved in cellular ATP production.",
+      "false_claim": "Mitochondria are the primary site of photosynthesis.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T16",
+      "domain": "Biology",
+      "true_claim": "Photosynthesis in plants occurs primarily in chloroplasts.",
+      "false_claim": "Photosynthesis in plants occurs primarily in ribosomes.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T17",
+      "domain": "Physics",
+      "true_claim": "Light travels faster than sound in air.",
+      "false_claim": "Sound travels faster than light in air.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T18",
+      "domain": "Physics",
+      "true_claim": "Pure water freezes near 0 degrees Celsius at standard atmospheric pressure.",
+      "false_claim": "Pure water freezes near 50 degrees Celsius at standard atmospheric pressure.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T19",
+      "domain": "History",
+      "true_claim": "The first crewed Moon landing occurred in 1969.",
+      "false_claim": "The first crewed Moon landing occurred in 1979.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T20",
+      "domain": "History",
+      "true_claim": "World War II ended in 1945.",
+      "false_claim": "World War II ended in 1955.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T21",
+      "domain": "Computing",
+      "true_claim": "Binary numeral notation uses base 2.",
+      "false_claim": "Binary numeral notation uses base 10.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T22",
+      "domain": "Computing",
+      "true_claim": "HTTP is a protocol used for transferring web resources.",
+      "false_claim": "HTTP is an image file format.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T23",
+      "domain": "Geology",
+      "true_claim": "Basalt is an igneous rock.",
+      "false_claim": "Basalt is a sedimentary rock.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T24",
+      "domain": "Geology",
+      "true_claim": "Earth's outer core is liquid.",
+      "false_claim": "Earth's outer core is solid rock.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T25",
+      "domain": "Oceanography",
+      "true_claim": "The Pacific Ocean is Earth's largest ocean basin.",
+      "false_claim": "The Arctic Ocean is Earth's largest ocean basin.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T26",
+      "domain": "Geography",
+      "true_claim": "The equator crosses the continent of Africa.",
+      "false_claim": "The equator crosses the continent of Europe.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T27",
+      "domain": "Linguistics",
+      "true_claim": "Spanish is a Romance language.",
+      "false_claim": "Spanish is a Germanic language.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T28",
+      "domain": "Music",
+      "true_claim": "A trumpet is a brass instrument.",
+      "false_claim": "A trumpet is a string instrument.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T29",
+      "domain": "Medicine",
+      "true_claim": "Insulin generally lowers blood glucose.",
+      "false_claim": "Insulin generally raises blood glucose.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    },
+    {
+      "pair_id": "V3T30",
+      "domain": "Botany",
+      "true_claim": "Plant roots commonly absorb water from soil.",
+      "false_claim": "Plant flowers are the primary organs that absorb water from soil.",
+      "source_status": "PENDING",
+      "researcher_decision": "APPROVED",
+      "researcher_comment": ""
+    }
+  ],
+  "wording_approved_on": "2026-08-19",
+  "wording_approval_scope": "measurement design, all 30 topic pairs, all 6 conditions, and all 48 representative prompt examples"
+}
